@@ -1,0 +1,5 @@
+# Cmake_utils todo list
+
+ - Support documentation generation (doxygen)
+
+ - Provide better support for packaging software (for instace, allowing component-based installation, dev, doc and runtime)

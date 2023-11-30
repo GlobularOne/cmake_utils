@@ -1,0 +1,8 @@
+# Test project
+project/
+
+# Temporary stuff
+*.bak
+*.tmp
+*.log
+*.swp
