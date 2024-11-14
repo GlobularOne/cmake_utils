@@ -1,17 +1,17 @@
 # cmake_utils
 
 Cmake_utils is a project containing several cmake functions to eliminate CMake boilercode.
-The aim is to make the CMakeLists.txt file short by providing functions that do what most projects would likely want done, standardizing behavior without eliminating the freedom to customize.
+The aim is to make the `CMakeLists.txt` file short by providing functions that do what most projects would likely want done, standardizing behavior without eliminating the freedom to customize.
 
 ## Features
 
-Cmake_utils provides several files and each file provides several functions. Each file covers common expected behavior of a certain topic. For example, Library.cmake allows you to generate libraries that automatically discover sources, public headers and so version.
+Cmake_utils provides several files and each file provides several functions, covering common expected behavior. For example, `Library.cmake` allows you to generate libraries that automatically discover sources, public headers and so version.
 
- - Significantly reduces boilerplate code.
+* Significantly reduces boilerplate code.
 
- - Allows for standarizing project directory structure.
+* Allows for standardizing project directory structure.
 
- - Provides utility functions for almost all a cmake-based project would need.
+* Provides utility functions for almost all a cmake-based project would need.
 
 ## Usage
 
