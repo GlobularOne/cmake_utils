@@ -1,11 +1,12 @@
 <!-- omit in toc -->
-# Contributing to cmake_utils
+# Contributing to Cmake_utils
 
 First off, thanks for taking the time to contribute! ❤️
 
 All types of contributions are encouraged and valued. See the [Table of Contents](#table-of-contents) for different ways to help and details about how this project handles them. Please make sure to read the relevant section before making your contribution. It will make it a lot easier for us maintainers and smooth out the experience for all involved. The community looks forward to your contributions. 🎉
 
 > And if you like the project, but just don't have time to contribute, that's fine. There are other easy ways to support the project and show your appreciation, which we would also be very happy about:
+>
 > - Star the project
 > - Tweet about it
 > - Refer this project in your project's readme
@@ -25,14 +26,12 @@ All types of contributions are encouraged and valued. See the [Table of Contents
   - [Commit Messages](#commit-messages)
 - [Join The Project Team](#join-the-project-team)
 
-
 ## Code of Conduct
 
 This project and everyone participating in it is governed by the
-[cmake_utils Code of Conduct](https://github.com/GlobularOne/cmake_utils/blob/main/CODE_OF_CONDUCT.md).
+[Cmake_utils' Code of Conduct](https://github.com/GlobularOne/cmake_utils/blob/main/CODE_OF_CONDUCT.md).
 By participating, you are expected to uphold this code. Please report unacceptable behavior
 to <GlobularOne@proton.me>.
-
 
 ## I Have a Question
 
@@ -44,13 +43,14 @@ If you then still feel the need to ask a question and need clarification, we rec
 
 - Open an [Issue](https://github.com/GlobularOne/cmake_utils/issues/new).
 - Provide as much context as you can about what you're running into.
-- Provide project and platform versions (cmake, compiler, etc), depending on what seems relevant.
+- Provide project and platform versions (cmake version, compiler version, system version, etc), depending on what seems relevant.
 
 We will then take care of the issue as soon as possible.
 
 ## I Want To Contribute
 
 > ### Legal Notice <!-- omit in toc -->
+>
 > When contributing to this project, you must agree that you have authored 100% of the content, that you have the necessary rights to the content and that the content you contribute may be provided under the project license.
 
 ### Reporting Bugs
@@ -99,7 +99,7 @@ This section guides you through submitting an enhancement suggestion for cmake_u
 - Make sure that you are using the latest version.
 - Read the [documentation](https://github.com/GlobularOne/cmake_utils/wiki) carefully and find out if the functionality is already covered, maybe by an individual configuration.
 - Perform a [search](https://github.com/GlobularOne/cmake_utils/issues) to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
-- Find out whether your idea fits with the scope and aims of the project. It's up to you to make a strong case to convince the project's developers of the merits of this feature. Keep in mind that we want features that will be useful to the majority of our users and not just a small subset. If you're just targeting a minority of users, consider writing an add-on/plugin library.
+- Find out whether your idea fits with the scope and aims of the project. It's up to you to make a strong case to convince the project's developers of the merits of this feature. Keep in mind that we want features that will be useful to the majority of our users and not just a small subset.
 
 <!-- omit in toc -->
 #### How Do I Submit a Good Enhancement Suggestion?
@@ -113,16 +113,15 @@ Enhancement suggestions are tracked as [GitHub issues](https://github.com/Globul
 
 ### Your First Code Contribution
 
-To setup an environment to develop and test cmake_utils, you need cmake, a c compiler and a c++ compiler. You can create one under the name of "project" (.gitignore file catches it) and likn the cmake files to `project/cmake/` and write a `CMakeLists.txt` file to test the changes. Be mindful that we require at least cmake version **3.9**.
-
 ### Improving The Documentation
 
 If improving the documentation or correcting it. Follow the already-established tone and theme of the documentation. For adding a new page, see other pages of the documentation as a template on how it should be structured.
 
 ## Styleguides
+
 ### Commit Messages
 
-Commit messages should be short, descriptive and use the past tense. An example of unacceptable messages is, "Library.cmake: Code refactoring". It does not sufficently describe the change happened and also doesn't use the past tense. It could have been: "Library.cmake: Refactored the source detection process".
+Commit messages should be short, descriptive and use the past tense (optional). An example of unacceptable messages is, "CompilerStandards.cmake: Adds new features". It does not sufficiently describe the change happened and also doesn't use the past tense. It could have been: "CompilerStandards.cmake: Added support for \<X> compiled language" or "CompilerStandards.cmake: Add support for \<X> compiled language" (which is also acceptable)
 
 ## Join The Project Team
 
@@ -130,4 +129,5 @@ To join the project team, contact the project team's leader (GlobularOne).
 
 <!-- omit in toc -->
 ## Attribution
+
 This guide is based on the **contributing-gen**. [Make your own](https://github.com/bttger/contributing-gen)!
