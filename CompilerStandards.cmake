@@ -18,7 +18,7 @@ function(set_cxx_standard)
 	if("CXX" IN_LIST LANGUAGES)
 		if(ARGC EQUAL 1)
 			set(CXX_STANDARD
-				${cxx_standard}
+				${ARGV0}
 				PARENT_SCOPE)
 		else()
 			set(CXX_STANDARD
